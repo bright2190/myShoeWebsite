@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shoe Store</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- list -->
+<!--list of shoes-->
+<div class="container">
+
+    <marquee>
+        <h1>welcome to my online shoe store.</h1>
+    </marquee>
+    
+
+    <ul style="list-style-type: none;
+            border: 1px solid red;
+            display: inline-block;
+            padding-bottom: 550px;
+            background-color: rgb(252, 145, 229);
+            padding-right: 30px;
+            border-right: 10px solid white;
+        
+            
+    ">
+    <h1>List of shoes</h1>
+        <li id="link1">
+            Nike
+        
+        </li>
+
+        <li id="link2">
+            Puma 
+        </li>
+
+        <li id="link3">
+            Reebok
+        </li>
+
+        <li id="link4">
+
+            Adidas
+        </li>
+
+        <li id="link5">
+
+            Gucci
+        </li>
+
+
+
+
+    </ul>
+
+    <!-- product display for Nike -->
+<div  style="background-color: white;
+display: inline-block;
+text-align: center;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 20px;
+border: 5px solid hotpink;
+position: absolute;
+top: 140px;
+left: 100px;
+display: none;">
+
+    
+    <img src="./images/Nike.jpg" width="60px" height="60px">
+    <h3 style="font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 5px;
+    padding-bottom: 5px;">
+        Nike product
+    </h3>
+    <p id="p_1">
+        Buy Nike now
+    </p>
+    <p id="p_2">
+        Save for later
+    </p>
+
+</div>
+
+
+<!-- display for puma -->
+<div id="puma"  style="background-color: white;
+display: inline-block;
+text-align: center;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border: 5px solid rgb(214, 5, 120);
+position: absolute;
+top: 225px;
+left: 100px;
+display: none;">
+
+<img src="./images/puma.jpg" width="60px" height="60px">
+    <h3 style="font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 5px;
+    padding-bottom: 5px;">
+        Puma product
+    </h3>
+    <p id="p_1">
+        Buy puma now
+    </p>
+    <p id="p_2">
+        Save for later
+    </p>
+</div>
+
+<!-- display for reebok -->
+<div id="reebok"  style="background-color: white;
+display: inline-block;
+text-align: center;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border: 5px solid rgb(175, 3, 89);
+position: absolute;
+top: 310px;
+left: 100px;
+display: none;">
+
+<img src="./images/reebok.jpg" width="60px" height="60px">
+    <h3 style="font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 5px;
+    padding-bottom: 5px;">
+        Reebok product
+    </h3>
+    <p id="p_1">
+        Buy Reebok now
+    </p>
+    <p id="p_2">
+        Save for later
+    </p>
+</div>
+
+<!-- display for adidas -->
+<div id="adidas"  style="background-color: white;
+display: inline-block;
+text-align: center;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border: 5px solid rgb(56, 2, 29);
+position: absolute;
+top: 393px;
+left: 100px;
+display: none;">
+
+<img src="./images/adidas.jpg" width="60px" height="60px">
+    <h3 style="font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 5px;
+    padding-bottom: 5px;">
+        Adidas product
+    </h3>
+    <p id="p_1">
+        Buy Adidas now
+    </p>
+    <p id="p_2">
+        Save for later
+    </p>
+</div>
+
+<!-- display for gucci -->
+<div id="gucci"  style="background-color: white;
+display: inline-block;
+text-align: center;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border: 5px solid rgb(252, 3, 127);
+position: absolute;
+top: 480px;
+left: 100px;
+display: none;">
+
+<img src="./images/gucci.jpg" width="60px" height="60px">
+    <h3 style="font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 5px;
+    padding-bottom: 5px;">
+        Gucci product
+    </h3>
+    <p id="p_1">
+        Buy Gucci now
+    </p>
+    <p id="p_2">
+        Save for later
+    </p>
+</div>
+</div>
+<!-- styling the visibility and invisibility of the drop down menu -->
+<script>
+    document.getElementById("link1").addEventListener("mouseenter", function() {
+        document.getElementsByTagName("div")[1].style.display = "block";})
+
+        document.getElementById("link1").addEventListener("mouseleave", function() {
+        document.getElementsByTagName("div")[1].style.display = "none";})
+
+</script>
+<script>
+    document.getElementById("link2").addEventListener("mouseenter", function() {
+        document.getElementsByTagName("div")[2].style.display = "block";})
+
+        document.getElementById("link2").addEventListener("mouseleave", function() {
+        document.getElementsByTagName("div")[2].style.display = "none";})
+
+</script>
+<script>
+    document.getElementById("link3").addEventListener("mouseenter", function() {
+        document.getElementsByTagName("div")[3].style.display = "block";})
+
+        document.getElementById("link3").addEventListener("mouseleave", function() {
+        document.getElementsByTagName("div")[3].style.display = "none";})
+
+</script>
+
+<script>
+    document.getElementById("link4").addEventListener("mouseenter", function() {
+        document.getElementsByTagName("div")[4].style.display = "block";})
+
+        document.getElementById("link4").addEventListener("mouseleave", function() {
+        document.getElementsByTagName("div")[4].style.display = "none";})
+
+</script>
+
+<script>
+    document.getElementById("link5").addEventListener("mouseenter", function() {
+        document.getElementsByTagName("div")[5].style.display = "block";})
+
+        document.getElementById("link5").addEventListener("mouseleave", function() {
+        document.getElementsByTagName("div")[5].style.display = "none";})
+
+</script>
+
+<script>
+    document.getElementById("link1").addEventListener("click", function() {
+        document.getElementsByTagName("body")[0].style.backgroundImage= "url('./images/Nike.jpg')";
+
+
+    })
+
+    document.getElementById("link2").addEventListener("click", function() {
+        document.getElementsByTagName("body")[0].style.backgroundImage= "url('./images/puma.jpg')";
+
+       
+    })
+
+    document.getElementById("link3").addEventListener("click", function() {
+        document.getElementsByTagName("body")[0].style.backgroundImage= "url('./images/reebok.jpg')";
+
+      
+
+    })
+
+    document.getElementById("link4").addEventListener("click", function() {
+        document.getElementsByTagName("body")[0].style.backgroundImage= "url('./images/adidas.jpg')";
+
+        
+    })
+
+    document.getElementById("link5").addEventListener("click", function() {
+        document.getElementsByTagName("body")[0].style.backgroundImage= "url('./images/gucci.jpg')";
+
+       
+
+    })
+</script>
+    
+</body>
+</html>

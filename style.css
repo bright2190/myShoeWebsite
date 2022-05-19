@@ -1,0 +1,76 @@
+ /*remove browser spaces */
+
+ *{
+    padding: 0;
+    margin: 0;
+
+}
+
+/* take all the entire width */
+html,body {
+    width: 100%;
+    background-image: url("./images/Nike.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+
+
+/* wrap the image in a container */
+.container {
+    /* width: 100% */
+    margin: 0px auto;
+
+}
+
+li {
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    color: lightcoral;
+    border-radius: 5px;
+    transition-delay: 0.2s;
+    transition-property: background-color;
+    transition-timing-function: ease-in;
+    transition-duration: 1s;
+
+}
+
+li:hover {
+    background-color: burlywood;
+    color: white;
+}
+
+
+
+h1 {    
+    color:rgb(252, 7, 158);
+    font-family: 'Courier New', Courier, monospace;
+}
+#p_1,#p_2 {
+     padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color cubic-bezier(0.55, 0.055, 0.675, 0.19) ease-in
+
+}
+
+#p_1:hover {
+    background-color: burlywood;
+    color: purple;
+}
+
+#p_2:hover {
+    background-color: burlywood;
+    color: purple;
+}
+
+li link2 {
+    background-attachment: fixed;
+
+}
